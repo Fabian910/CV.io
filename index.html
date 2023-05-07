@@ -1,91 +1,99 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <title>CV Fabian Funes</title>
+    <meta name="description" content="Curriculum Vitae u Hoja de vida de Fabián Funes">
+    <meta name="keywords" content="CV, Java, Desarrollador, Developer, Jr">
+    <link rel="stylesheet" href="estilos.css">
+</head>
 
-header img{
-    max-width: 300px;
-	height: auto;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+<body>
+    <header>
+        <h1>Fabián Funes</h1>
+        <img src="imagenes\Facu.png" alt="Foto de Fabian" title="Foto de Fabián">
+        <section id="breveDescripcion">
+            <p>Desarrollador Front-End</p>
+        </section>
 
-}
-#breveDescripcion{
-    text-align: center;
-    font: 1000 17px roboto;
-}
+    </header>
 
-hr{
-border-color:  #7e86f7; ;
-}
+    <main>
+        <section id="educacion">
+            <h3>Educación.</h3>
+            <ul>
+                <li>Tecnicatura en Tecnologías Web<br>Universidad Nacional del Oeste (2020-En curso)</li>
+                <li>Licenciatura en Informática<br>Universidad Nacional del Oeste (2021-En curso)</li>
+                <li>Bachiller en Economía y Administración<br>Escuela Secundaria N°19 (2017-2020)</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="expLaboral">
+            <h3>Experiencia laboral.</h3>
+            <ul>
+                <li>
+                    Director de siestas en Empresa Genérica (Junio de 2021 - Agosto de 2021)
+                    <ul>
+                        <li>
+                            <p>Detectar insomnio.</p>
+                        </li>
+                        <li>
+                            <p>Enseñar técnicas de relajación.</p>
+                        </li>
+                        <li>
+                            <p>Dar ejemplos de siestas.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Catador de vinos en Vinoteca del Pueblo (Agosto de 2021 - Julio de 2022)
+                    <ul>
+                        <li>
+                            <p>Detección de vinos en mal estado.</p>
+                        </li>
+                        <li>
+                            <p>Probar la calidad de los vinos.</p>
+                        </li>
+                        <li>
+                            <p>Calificar vinos de todo tipo.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <section id="formulario">
 
-body{
-    font: 100 20px roboto;
-    background-color: #ffffff;
-    border: 1px solid #7e86f0;
-    border-radius: 20px;
-}
+        <p>Si quieres contactarte conmigo, puedes hacerlo mediante el siguiente formulario.</p>
+        <section id="formCentro">
+            <form action="" target="">
+                <label for="nombre">Tu nombre*:</label>
+                <input type="text" name="nombre" required><br>
+                <label for="email">Tu dirección de correo*:</label>
+                <input type="email" name="correo" required><br>
+                <label for="mensaje">Tu mensaje*:</label>
+                <textarea name="mensaje" rows="4" cols="40" required></textarea><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono"><br>
+                <input type="submit" value="Enviar"></p>
+            </form>
+        </section>
+    </section>
 
+    <footer>
 
-footer{
-    font:100 20px roboto;
-    text-align: right;
- }
+        <section id="iconosSociales">
+            <a href="https://www.linkedin.com/in/fabianfunes/">
+                <img src="imagenes/linkedin.png" alt="redireccion a linkedin" title="Botón de Linkedin">
+            </a><a href="https://github.com/Fabian910">
+                <img src="imagenes/github.png" alt="redireccion a github" title="Botón de GitHub">
+            </a>
+            <a href="https://www.instagram.com/fabianfunes__/">
+                <img src="imagenes/instagram.png" alt="redireccion a github" title="Botón de Instagram">
+            </a>
+        </section>
+        <p>CV hecho por Fabián Funes para la materia Programación Web 1.</p>
+    </footer>
+</body>
 
-
-h1{
-    font: 100 60px roboto;
-    text-align: center;
-}
-
-h2{
-    font: 1000 35px roboto;
-    color: rgb(133, 86, 5);
-}
-h3{
-    font: 100 30px roboto;
-}
-
-main{
-    display: block;
-    width: auto; 
-    border-radius: 10px;
-    padding: 15px 15px 15px;
-    background-color: white;
-    border: 1px solid #7e86f0;
-    font-size: 20;
-}
-
-#formulario{
-    display: block;
-    width: auto; 
-    border-radius: 10px;
-    padding: 15px 15px 15px;
-    background-color: white;
-    border: 1px solid #7e86f0;
-    font-size: 20;
-}
-
-#formulario input, #formulario textarea{
-	width: 500px;	
-	border-radius: 30px;
-	padding: 10px;
-	color: #676767;
-	border: solid 3px #98d4f3;	
-	box-sizing:border-box;
-	
-}
-
-.breaker{
-color: #676767;
-}
-
-{
-    
-}
-
-footer img{
-    max-width: 40;
-    max-height: 40;
-
-}
+</html>
