@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-
 header img{
     max-width: 300px;
 	height: auto;
@@ -12,73 +11,68 @@ header img{
 }
 #breveDescripcion{
     text-align: center;
-    font: 1000 17px roboto;
 }
 
 hr{
-border-color:  #7e86f7; ;
+border-color: yellow; ;
 }
 
 body{
-    font: 100 20px roboto;
-    background-color: #ffffff;
-    border: 1px solid #7e86f0;
+    font: 100 20px Roboto;
+    color: yellow;
+    border: 1px solid yellow;
     border-radius: 20px;
     padding: 10px;
+    background-image: url("imagenes/star-wars-backgrounds-25_bc15ec98.jpeg");
 }
 
 
 footer{
-    font:100 20px roboto;
+    font:100 20px;
     text-align: right;
  }
 
 
 h1{
-    font: 100 60px roboto;
+    font: 100 60px;
     text-align: center;
 }
 
 h2{
-    font: 1000 35px roboto;
-    color: rgb(133, 86, 5);
+    font: 2000 35px yellow;
 }
 h3{
-    font: 100 30px roboto;
+    font: 100 30px;
 }
 
 main{
-    display: block;
-    width: auto; 
     border-radius: 10px;
     padding: 15px 15px 15px;
-    background-color: white;
-    border: 1px solid #7e86f0;
+    border: 1px solid #92d417;
     font-size: 20;
-}
+    }
 
 #formulario{
-    display: block;
-    width: auto; 
     border-radius: 10px;
     padding: 15px 15px 15px;
-    background-color: white;
-    border: 1px solid #7e86f0;
+    border: 1px solid yellow;
     font-size: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #formulario input, #formulario textarea{
-	width: 500px;	
-	border-radius: 30px;
+    width: 400px;
+    display: block;
+	border-radius: 10px;
 	padding: 10px;
-	color: #676767;
-	border: solid 3px #98d4f3;	
-	box-sizing:border-box;
-	
+	border: solid 2px yellow;	
 }
 
 footer img{
     max-width: 40;
     max-height: 40;
-
+    background-color: yellow;
+    border-radius: 100%;
 }
