@@ -10,8 +10,8 @@ header img {
 
 }
 
-header{
-background-color: #0275d8;    
+header {
+    background-color: #0275d8;
 }
 
 #breveDescripcion {
@@ -53,13 +53,15 @@ h3 {
     justify-content: space-around;
 
 }
-#infoPersonal{
+
+#infoPersonal {
     display: flex;
     justify-content: space-around;
 }
-#habilidades{
-   display: flex; 
-   justify-content: space-around;
+
+#habilidades {
+    display: flex;
+    justify-content: space-around;
 
 }
 
