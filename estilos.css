@@ -10,18 +10,19 @@ header img {
 
 }
 
+header{
+background-color: #0275d8;    
+}
+
 #breveDescripcion {
     text-align: center;
 }
 
-hr {
-    border-color: yellow;
-}
+
 
 body {
     font: 100 20px Roboto;
-    color: yellow;
-    border: 1px solid yellow;
+
     border-radius: 20px;
     padding: 10px;
     background-image: url("imagenes/star-wars-backgrounds-25_bc15ec98.jpeg");
@@ -39,30 +40,38 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    font: 2000 35px yellow;
-}
 
 h3 {
     font: 100 30px;
 }
 
-main {
+#main {
     border-radius: 10px;
     padding: 15px 15px 15px;
-    border: 1px solid #92d417;
     font-size: 20;
+    display: flex;
+    justify-content: space-around;
+
+}
+#infoPersonal{
+    display: flex;
+    justify-content: space-around;
+}
+#habilidades{
+   display: flex; 
+   justify-content: space-around;
+
 }
 
 #formulario {
     border-radius: 10px;
     padding: 10px;
-    border: 1px solid yellow;
     margin-top: 10px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: gray;
 }
 
 #formulario input,
@@ -71,13 +80,11 @@ main {
     display: block;
     border-radius: 5px;
     padding: 10px;
-    border: 2px solid yellow;
 }
 
 footer img {
     max-width: 40;
     max-height: 40;
-    background-color: yellow;
     border-radius: 100%;
 
 }
